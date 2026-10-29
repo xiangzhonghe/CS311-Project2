@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #223344;
+}
+
+.control-area {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#loadBtn {
+    padding: 10px 22px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#errorDisplay {
+    color: #bb2222;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom:15px;
+}
+
+#dataContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 18px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.country-card {
+    background-color: white;
+    padding:16px;
+    border-radius: 6px;
+}
+
+.country-card h3 {
+    margin-top:0;
+}
